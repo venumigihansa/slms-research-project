@@ -1,0 +1,31 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS / editor metadata
+.DS_Store
+._*
+
+# Local logs and temporary outputs
+*.log
+*.tmp
+*.bak
+
+# Runpod / experiment scratch outputs
+preprocessed_traces/
+*_failures.jsonl
+results /cache/
